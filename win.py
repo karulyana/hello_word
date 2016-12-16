@@ -15,6 +15,7 @@ from PyQt5.QtWidgets import (QWidget, QApplication, QDesktopWidget, QFileDialog,
                              QVBoxLayout, QTextEdit, QTabWidget,QFormLayout,QGridLayout,
                              )
 from PyQt5.QtGui import QColor, QPainter
+
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5 import NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
